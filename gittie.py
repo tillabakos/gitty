@@ -5,6 +5,13 @@ def introduce():
     print("Hello, I'm Gittie!")
 
 
+
+
+def add(a, b):
+    return a+b
+
+
+
 def joke():
     jokes = [
             ["Why was the stadium so cold?", "Because there were a lot of fans."],
@@ -22,4 +29,3 @@ def joke():
     input(joke[0])
     print(joke[1])
 
-joke()
